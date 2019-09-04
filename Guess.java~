@@ -1,0 +1,48 @@
+/**
+ * Auto Generated Java Class.
+ */
+import java.util.Scanner;
+public class Guess {
+  
+  
+  public static void main(String[] args) {
+    Scanner scan=new Scanner (System.in);
+    int a;
+    Random random=new Random();
+    int answer = random.nextInt(10)+1;
+    
+    
+    
+    for(int i=0;i<3;i++){
+      System.out.println("guess my number");
+      a=scan.nextint();
+      if (a==answer){
+          System.out.println("oke");
+          }else
+              System.out.println("again");
+          
+      }
+    
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    
+    
+    
+  }
+  
+  /* ADD YOUR CODE HERE */
+  
+}
